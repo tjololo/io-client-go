@@ -12,7 +12,7 @@ type Data struct {
 	Expiration   string  `json:"expiration,omitempty"`
 	Latitude     string `json:"lat,omitempty"`
 	Longitude    string `json:"lon,omitempty"`
-	Elevation    float64 `json:"ele,omitempty"`
+	Elevation    string `json:"ele,omitempty"`
 	CompletedAt  string  `json:"completed_at,omitempty"`
 	CreatedAt    string  `json:"created_at,omitempty"`
 	UpdatedAt    string  `json:"updated_at,omitempty"`
