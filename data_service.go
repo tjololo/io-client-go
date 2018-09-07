@@ -4,7 +4,7 @@ import "fmt"
 
 // Data are the values contained by a Feed.
 type Data struct {
-	ID           int     `json:"id,omitempty"`
+	ID           string  `json:"id,omitempty"`
 	Value        string  `json:"value,omitempty"`
 	Position     string  `json:"position,omitempty"`
 	FeedID       int     `json:"feed_id,omitempty"`
