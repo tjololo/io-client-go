@@ -10,8 +10,8 @@ type Data struct {
 	FeedID       int     `json:"feed_id,omitempty"`
 	GroupID      int     `json:"group_id,omitempty"`
 	Expiration   string  `json:"expiration,omitempty"`
-	Latitude     float64 `json:"lat,omitempty"`
-	Longitude    float64 `json:"lon,omitempty"`
+	Latitude     string `json:"lat,omitempty"`
+	Longitude    string `json:"lon,omitempty"`
 	Elevation    float64 `json:"ele,omitempty"`
 	CompletedAt  string  `json:"completed_at,omitempty"`
 	CreatedAt    string  `json:"created_at,omitempty"`
